@@ -15,10 +15,12 @@ However, there are still a few cool features missing, such as:
   Docker setup and compatibility with Windows (currently only tested on Linux).
   
   Feel free to clone the repository and merge its contents into your nvim folder. Take care not to overwrite your existing configurations.
-  
-To install, simply clone the repository and move its contents to the nvim folder. Please exercise caution to avoid overwriting your existing configurations.
-Contributions, pull requests, and ideas for improvement are highly encouraged.
+ 
+Before proceeding with the installation, please ensure that you have made a backup of your existing configurations. Once you have confirmed that the backup is in place and empty, you can run the following command:
 
+ 
+    git clone https:/github.com/igorcguedes/SaleVim ~/.config/nvim
+    
 Prints:
 ![image](https://github.com/igorcguedes/SaleVim/assets/48987652/1fff4282-8969-43f3-9866-38af62fa4bfd)
 
