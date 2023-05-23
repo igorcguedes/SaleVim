@@ -8,6 +8,8 @@ Before proceeding with the installation, please ensure that you have made a back
 
     git clone https:/github.com/igorcguedes/SaleVim ~/.config/nvim
     
+Space is the Leader Key, you can use to Deploy, check keybinds, search for files and many more.
+    
 Prints:
 ![image](https://github.com/igorcguedes/SaleVim/assets/48987652/1fff4282-8969-43f3-9866-38af62fa4bfd)
 
