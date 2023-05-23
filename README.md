@@ -7,9 +7,13 @@ To ensure a smooth experience, make sure to install the necessary LSP servers, P
 However, there are still a few cool features missing, such as:
 
   Diff files.
+  
   Salesforce org authorization (enabling switching between authorized orgs).
+  
   Creating files with sfdx, including Apex Classes, LWC components, etc.
+  
   Docker setup and compatibility with Windows (currently only tested on Linux).
+  
   Feel free to clone the repository and merge its contents into your nvim folder. Take care not to overwrite your existing configurations.
   
 To install, simply clone the repository and move its contents to the nvim folder. Please exercise caution to avoid overwriting your existing configurations.
