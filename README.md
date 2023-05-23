@@ -1,5 +1,4 @@
 
-![image](https://github.com/igorcguedes/SaleVim/assets/48987652/1fff4282-8969-43f3-9866-38af62fa4bfd)
 
 Using the base config: Neovim From Scratch from https://github.com/LunarVim/Neovim-from-scratch, numerous tweaks have been implemented to ensure optimal functionality with Apex, Aura, and LWC.
 
@@ -17,6 +16,7 @@ To install, simply clone the repository and move its contents to the nvim folder
 Contributions, pull requests, and ideas for improvement are highly encouraged.
 
 Prints:
+![image](https://github.com/igorcguedes/SaleVim/assets/48987652/1fff4282-8969-43f3-9866-38af62fa4bfd)
 
 ![image](https://github.com/igorcguedes/SaleVim/assets/48987652/c2ab54cd-5613-4a86-afcb-51656fee9d29)
 
