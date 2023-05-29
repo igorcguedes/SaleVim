@@ -85,7 +85,7 @@ return packer.startup(function(use)
 	use { "lewis6991/gitsigns.nvim"}
   --salesforce 
   use { "beyond-the-cloud-dev/vsc-salesforce-code-snippets" }
-  use {"leviticusnelson/sfdx.nvim"}
+  use { "igorcguedes/sfdx.nvim" }
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
