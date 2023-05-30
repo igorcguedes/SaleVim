@@ -22,9 +22,7 @@ local settings = {
 	max_concurrent_installers = 4,
 }
 
-local username = os.getenv("USER")
-local apex_jar_filename = 'apex-jorje-lsp.jar'
-local apex_jar_path = '/home/' .. username .. '/.config/nvim/lspserver/' .. apex_jar_filename
+local apex_jar_path = vim.fn.stdpath("config") .. '/lspserver/' .. 'apex-jorje-lsp.jar'
 
 require'lspconfig'.html.setup{}
 require'lspconfig'.eslint.setup{}
