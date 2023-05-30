@@ -1,6 +1,6 @@
 
 
-REQUIREMENT: NEOVIM 9.0
+REQUIREMENT: NEOVIM 9.0+
 
 Using the base config: Neovim From Scratch from https://github.com/LunarVim/Neovim-from-scratch, numerous tweaks have been implemented to ensure optimal functionality with Apex, Aura, and LWC.
 
