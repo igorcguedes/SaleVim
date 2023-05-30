@@ -1,5 +1,6 @@
 
 
+REQUIREMENT: NEOVIM 9.0
 Using the base config: Neovim From Scratch from https://github.com/LunarVim/Neovim-from-scratch, numerous tweaks have been implemented to ensure optimal functionality with Apex, Aura, and LWC.
 
 To ensure a smooth experience, make sure to install the necessary LSP servers, Prettier for formatting, and ESLint for JavaScript and HTML. The project aims to provide a simple, fast, and useful IDE, though it may currently lack some planned features. The focus is on low memory usage, instant loading for editing without waiting for plugin loading, and various optimizations.
