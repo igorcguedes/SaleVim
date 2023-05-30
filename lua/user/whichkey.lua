@@ -163,7 +163,7 @@ local mappings = {
     d = { "<cmd>SfdxDeploy<cr>", "Deploy"},
     t = { "<cmd>SfdxTest<cr>", "Test"},
     u = { "<cmd>SfdxSetUsername<cr>", "Set Username"},
-    c = { "<cmd>SfdxCreateClass<cr>", "Create file"}
+    c = { "<cmd>SfdxCreateclass<cr>", "Create file"}
   },
 }
 
