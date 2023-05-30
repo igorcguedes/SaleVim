@@ -24,7 +24,5 @@ However, there are still a few cool features missing, such as:
  • Diff files.
  
  • Salesforce org authorization (enabling switching between authorized orgs).
- 
- • Creating files with sfdx, including Apex Classes, LWC components, etc.
- 
+  
  • Docker setup and compatibility with Windows (currently only tested on Linux).
