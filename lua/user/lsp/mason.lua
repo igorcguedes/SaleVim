@@ -25,8 +25,6 @@ local settings = {
 	max_concurrent_installers = 4,
 }
 
-<<<<<<< HEAD
-=======
 local apex_jar_path = vim.fn.stdpath("config") .. '/lspserver/' .. 'apex-jorje-lsp.jar'
 
 require'lspconfig'.html.setup{}
@@ -38,7 +36,6 @@ require'lspconfig'.apex_ls.setup {
   filetypes = {'apex'}
 }
 
->>>>>>> 45071a25bf144a70a339aadbd18ca160f16c9629
 require("mason").setup(settings)
 require("mason-lspconfig").setup({
 	ensure_installed = servers,
