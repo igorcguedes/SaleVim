@@ -84,10 +84,15 @@ use { "Mofiqul/dracula.nvim" }
 	use { "lewis6991/gitsigns.nvim"}
   --salesforce 
   use { "beyond-the-cloud-dev/vsc-salesforce-code-snippets" }
+<<<<<<< HEAD
   use { "LeviticusNelson/sfdx.nvim" }
   use { "rebelot/kanagawa.nvim" }
   use { "folke/tokyonight.nvim"}
   use { "catppuccin/nvim"}
+=======
+  use { "igorcguedes/sfdx.nvim" }
+
+>>>>>>> 45071a25bf144a70a339aadbd18ca160f16c9629
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end

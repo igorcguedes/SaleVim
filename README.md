@@ -1,80 +1,28 @@
-# Neovim from scratch
 
-**Important Update** When I initially created this repo I didn't anticipate the amount of breaking changes, if you'd like to use the same basic config as this one as a base I recommend my new repo: [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
 
-**Another Update** This repo should work fine with Neovim 0.8, also all packages are pinned so it should remain stable.
+REQUIREMENT: NEOVIM 0.9+
 
-Each video will be associated with a branch so checkout the one you are interested in, you can follow along with this [playlist](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ).
+Using the base config: Neovim From Scratch from https://github.com/LunarVim/Neovim-from-scratch, numerous tweaks have been implemented to ensure optimal functionality with Apex, Aura, and LWC.
 
-## Try out this config
+To ensure a smooth experience, make sure to install the necessary LSP servers, Prettier for formatting, and ESLint for JavaScript and HTML. The project aims to provide a simple, fast, and useful IDE, though it may currently lack some planned features. The focus is on low memory usage, instant loading for editing without waiting for plugin loading, and various optimizations.
 
-Make sure to remove or move your current `nvim` directory
+Before proceeding with the installation, please ensure that you have made a backup of your existing configurations. Once you have confirmed that the backup is in place and empty, you can run the following command:
 
-**IMPORTANT** Requires [Neovim v0.8.0](https://github.com/neovim/neovim/releases). Please [upgrade](#upgrade-to-latest-release) if you're on an earlier version. 
-```
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
-```
+    git clone https:/github.com/igorcguedes/SaleVim ~/.config/nvim
+    
+Space is the Leader Key, you can use to Deploy, check keybinds, search for files and many more.
+    
+Prints:
+![image](https://github.com/igorcguedes/SaleVim/assets/48987652/1fff4282-8969-43f3-9866-38af62fa4bfd)
 
-Run `nvim` and wait for the plugins to be installed. (You will notice treesitter pulling in a bunch of parsers the next time you open Neovim) 
+![image](https://github.com/igorcguedes/SaleVim/assets/48987652/c2ab54cd-5613-4a86-afcb-51656fee9d29)
 
-**NOTE** [Mason](https://github.com/williamboman/mason.nvim) is now used to install and manage LSP servers, DAP servers, linters, and formatters via the `:Mason` command.
+![image](https://github.com/igorcguedes/SaleVim/assets/48987652/23b3b5cb-573c-4ea8-92ff-c7f882032e79)
 
-## Get healthy
-
-Open `nvim` and enter the following:
-
-```
-:checkhealth
-```
-
-You'll probably notice you don't have support for copy/paste also that python and node haven't been setup
-
-So let's fix that
-
-First we'll fix copy/paste
-
-- On mac `pbcopy` should be builtin
-
-- On Ubuntu
-
-  ```
-  sudo apt install xsel
-  ```
-
-- On Arch Linux
-
-  ```
-  sudo pacman -S xsel
-  ```
-
-Next we need to install python support (node is optional)
-
-- Neovim python support
-
-  ```
-  pip install pynvim
-  ```
-
-- Neovim node support
-
-  ```
-  npm i -g neovim
-  ```
----
-
-**NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
-
-### Upgrade to latest release
-
-Assuming you [built from source](https://github.com/neovim/neovim/wiki/Building-Neovim#quick-start), `cd` into the folder where you cloned `neovim` and run the following commands. 
-```
-git pull
-make distclean && make CMAKE_BUILD_TYPE=Release
-git checkout v0.8.0
-sudo make install
-nvim -v
-```
-
-> The computing scientist's main challenge is not to get confused by the complexities of his own making. 
-
-\- Edsger W. Dijkstra
+However, there are still a few cool features missing, such as:
+ 
+ • Diff files.
+ 
+ • Salesforce org authorization (enabling switching between authorized orgs).
+  
+ • Docker setup and compatibility with Windows (currently only tested on Linux).
