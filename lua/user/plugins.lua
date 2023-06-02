@@ -79,14 +79,15 @@ return packer.startup(function(use)
 
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter" }
-
-  use { "Mofiqul/dracula.nvim" } 
+use { "Mofiqul/dracula.nvim" } 
 	-- Git
 	use { "lewis6991/gitsigns.nvim"}
   --salesforce 
   use { "beyond-the-cloud-dev/vsc-salesforce-code-snippets" }
-  use {"leviticusnelson/sfdx.nvim"}
-
+  use { "LeviticusNelson/sfdx.nvim" }
+  use { "rebelot/kanagawa.nvim" }
+  use { "folke/tokyonight.nvim"}
+  use { "catppuccin/nvim"}
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
