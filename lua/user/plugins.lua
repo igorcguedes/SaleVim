@@ -54,6 +54,7 @@ return packer.startup(function(use)
   use { "nvim-lualine/lualine.nvim" }
 
 	-- Colorschemes
+  use { "rebelot/kanagawa.nvim" }
 	-- Cmp 
   use { "hrsh7th/nvim-cmp"} -- The completion plugin
   use { "hrsh7th/cmp-buffer"} -- buffer completions
@@ -79,18 +80,14 @@ return packer.startup(function(use)
 
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter" }
-use { "Mofiqul/dracula.nvim" } 
+  use { "Mofiqul/dracula.nvim" } 
+
 	-- Git
 	use { "lewis6991/gitsigns.nvim"}
+
   --salesforce 
   use { "beyond-the-cloud-dev/vsc-salesforce-code-snippets" }
-<<<<<<< HEAD
   use { "LeviticusNelson/sfdx.nvim" }
-  use { "rebelot/kanagawa.nvim" }
-=======
-  use { "igorcguedes/sfdx.nvim" }
-
->>>>>>> 45071a25bf144a70a339aadbd18ca160f16c9629
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
