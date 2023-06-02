@@ -87,8 +87,6 @@ use { "Mofiqul/dracula.nvim" }
 <<<<<<< HEAD
   use { "LeviticusNelson/sfdx.nvim" }
   use { "rebelot/kanagawa.nvim" }
-  use { "folke/tokyonight.nvim"}
-  use { "catppuccin/nvim"}
 =======
   use { "igorcguedes/sfdx.nvim" }
 
